@@ -21,5 +21,10 @@ public class CoinSpawner : MonoBehaviour
             Vector3 worldPoint = Camera.main.ScreenToWorldPoint(clickPosition);
             Instantiate(this.CoinPrefab, worldPoint, Quaternion.identity);
         }
+
+        if (this.CoinPrefab.transform.position.y < -10)
+        {
+            Destroy(this.CoinPrefab);
+        }
     }
 }
