@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 31
+  controlID: 53
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 98
+  controlID: 115
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -329,9 +329,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 842f0000
+      m_SelectedIDs: 6a3b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0efbffff
+      m_ExpandedIDs: e4f9ffff78fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -429,20 +429,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/CommonFolder/Scripts
+    - Assets/Score and Times - Game Sound Solutions/classic
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/CommonFolder/Scripts
+  - Assets/Score and Times - Game Sound Solutions/classic
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\RYO\Documents\git_dir\CoinPusher\Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 322a0000
-    m_LastClickedID: 10802
-    m_ExpandedIDs: 000000001e290000b229000000ca9a3b
+    m_SelectedIDs: 7c3c0000
+    m_LastClickedID: 15484
+    m_ExpandedIDs: 000000000a290000123b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -470,7 +470,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001e290000
+    m_ExpandedIDs: 000000000a290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,15 +501,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Hit
-      m_OriginalName: Hit
+      m_Name: coin_1_a
+      m_OriginalName: coin_1_a
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 12164
+      m_UserData: 15490
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -522,7 +522,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 659}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 241
 --- !u!114 &16
@@ -642,9 +642,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 6.81, z: -10}
+    m_Target: {x: -0.14685059, y: -3.984375, z: -1.109375}
     speed: 2
-    m_Value: {x: 0, y: 6.81, z: -10}
+    m_Value: {x: -0.14685059, y: -3.984375, z: -1.109375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -665,25 +665,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0.04211221, y: -0.6723797, z: 0.038367208, w: 0.7380098}
     speed: 2
-    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Value: {x: 0.042112242, y: -0.6723802, z: 0.038367238, w: 0.7380104}
   m_Size:
-    m_Target: 22
+    m_Target: 48.989853
     speed: 2
-    m_Value: 22
+    m_Value: 48.989853
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
