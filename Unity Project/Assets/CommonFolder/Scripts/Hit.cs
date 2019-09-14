@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class Hit : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public AudioClip getCoinSE;
+    public AudioSource aud;
     void Start()
     {
-        
+        this.aud = GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
+        GameObject CoinCounter = GameObject.Find("CoinCounter");
+        CoinCounter.GetComponent<CoinCounter>().AddScore();
+        this.aud.PlayOneShot(this.getCoinSE);
         Destroy(other.gameObject);
     }
 }
